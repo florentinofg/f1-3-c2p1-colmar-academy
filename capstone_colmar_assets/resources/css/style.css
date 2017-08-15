@@ -1,0 +1,620 @@
+/* Universal Styles */
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0 auto;
+    background-color: rgb(245, 237, 237);
+}
+
+/* Header */
+
+header {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 24px;
+    margin-right: 8px;
+}
+
+a {
+    background-color: transparent;
+}
+
+#logo img {
+    height: 3rem;
+    display: flex;
+}
+
+#colmar {
+    font-weight: bold;
+    color: rgb(64, 64, 64);
+}
+
+header span {
+    color: rgb(155, 173, 177);
+    font-size: 1.33rem;
+}
+
+.desktop {
+    margin-right: 1rem;
+}
+
+.desktop a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: rgb(142, 133, 133);
+}
+
+.mobile {
+    display: none;
+}
+
+/* Banner */
+
+.container {
+    width: 100%;
+    background-color: rgb(216, 218, 218);
+    position: relative;
+    z-index: 15;
+    top: 4rem;
+    display: flex;
+}
+
+.learncontent {
+    display: flex;
+    padding: 32px 24px;
+}
+
+.imaging {
+    display: flex;
+    width: 60%;
+    margin-right: 40px;
+}
+
+.imagebox img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mobilegraybox {
+    display: none;
+}
+
+.learnbox {
+    color: rgb(78, 70, 70);
+    margin-top: 3rem;
+    line-height: 1.3;
+    width: 22rem;
+    display: block;
+}
+
+.learnbox h1 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    width: 90%;
+    margin: 0.67em 0;
+}
+
+.learnbox p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    width: 90%;
+}
+
+.startbutton {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.learnbox span {
+    background-color: rgb(107,124,127);
+    padding: 8px 0px;
+    display: flex;
+    justify-content: center;
+    width: 85%;
+}
+
+.learnbox span a {
+    color: white;
+    font-weight: 300;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+/* Practicing */
+
+.practicecontainer {
+    width: 100%;
+    position: relative;
+    top: 4rem;
+    z-index: 10;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+
+.practicecontent {
+    padding: 32px 0px 32px 24px;
+    display: flex;
+    color: rgb(16,16,16);
+}
+
+.leftbox {
+    margin-right: 24px;
+}
+
+.emanuel {
+    margin-bottom: 2rem;
+}
+
+.emanuel img {
+    max-width: 100%;
+    height: auto;
+}
+
+.leftbox h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 24px;
+}
+
+.leftbox p {
+    font-weight: 100;
+    margin-bottom: 32px;
+}
+
+.leftbox span {
+    font-weight: 300;
+    font-size: 0.75rem;
+}
+
+.rightbox {
+    width: 423px;
+    display: flex;
+    flex-direction: column;
+}
+
+.infobox {
+    width: 423px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.desktoppic {
+    width: 35%;
+}
+
+.desktoppic img {
+    max-width: 100%;
+    height: auto;
+    margin: 1rem;
+    border: 1px solid rgb(220,220,220);
+}
+
+.mobilepic {
+    display: none;
+}
+
+.textbox {
+    color: rgb(97, 97, 97);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 2.5rem 1.5rem 3rem 2rem;
+    width: 48%;
+  }
+
+.textbox h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    letter-spacing: .4px;
+}
+
+.textbox span {
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin-bottom: 1.2rem;
+}
+
+.textbox a {
+    color: rgb(109,109,232);
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+#oliver {
+    background-color: rgb(216, 218, 218);
+}
+
+#olivertext {
+    margin: 0;
+    line-height: 2;
+}
+
+/* Start Learning */
+
+.learningcontainer {
+    position: relative;
+    z-index: 10;
+    top: 4rem;
+    background-color: rgb(233, 234, 234);
+    padding-bottom: 1.5rem;
+}
+
+.learningcontainer h1 {
+    color: rgb(80, 80, 80);
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 2rem 0 1.5rem 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.subjects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.learningbox {
+    color: rgb(64,64,64);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    line-height: 1.15;
+    padding: 0rem 4%;
+
+}
+
+.subjectbox {
+    height: 300px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem 1rem;
+    background-color: white;
+}
+
+.subjectpic {
+    margin: 0;
+    padding: 0;
+}
+
+.subjectpic img {
+    max-width: 100%;
+    height: auto;
+}
+
+.subjecttext {
+    margin: 0;
+    padding: 0;
+}
+
+.subjecttext h2 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0.9rem 0rem 0.5rem 1rem;
+    padding: 0;
+}
+
+.subjecttext span, p {
+    font-weight: 300;
+    color: rgb(137, 143, 144);
+}
+
+.subjecttext span {
+    display: inline-block;
+    margin: 0 0 0.5rem 1rem;
+    font-size: 0.85rem;
+}
+
+.subjecttext p {
+    margin: 0 1rem 1.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+/* Thesis Exhibit */
+
+#thesis.learningcontainer {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0;
+}
+
+#thesis.practicecontent {
+    padding-top: 0rem;
+}
+
+#thesis.leftbox {
+    margin-right: 1rem;
+    font-size: 0.85rem;
+}
+
+.video {
+    margin-bottom: 1.5rem;
+}
+
+#thesis.leftbox h1 {
+    font-size: 1.5rem;
+    text-align: left;
+    margin-bottom: 0.5rem;
+    padding: 0;
+}
+
+#thesis.leftbox p {
+    margin-bottom: 0;
+}
+
+#fisma.rightbox {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+#fisma.infobox {
+    width: 423px;
+    height: auto;
+}
+
+#dtext {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+footer {
+    position: relative;
+    z-index: 5;
+    top: 4rem;
+    background-color: white;
+    height: 3rem;
+    max-width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 0.9rem;
+    border-top: 1px solid  rgb(192, 194, 195);
+    padding-top: 0;
+}
+
+footer span {
+    flex-grow: 1;
+    color: rgb(113, 111, 111);
+}
+
+footer nav a {
+    padding: 0 0.5rem;
+    text-decoration: none;
+    color: rgb(113, 111, 111);
+}
+
+/* screen max-width 700px */
+
+@media only screen and (max-width: 701px){
+
+  /*Header*/
+  #logo {
+      display: none;
+  }
+  .desktop {
+    display: none;
+}
+.mobile {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+/*Banner*/
+.learncontent {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.imaging {
+    display: none;
+}
+.imagebox {
+    display: none;
+}
+.mobilegraybox {
+    max-width: 100%;
+    height: 9.25rem;
+    background-image: url("../images/banner.jpg");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 1rem;
+}
+.learnbox {
+    color: rgb(78, 70, 70);
+    line-height: 1.4;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.learnbox h1, p {
+    text-align: center;
+}
+.startbutton {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+/*Practicing*/
+
+.practicecontainer {
+    padding: 0rem;
+    margin: 0rem;
+}
+.practicecontent {
+    margin: 1rem;
+    padding: 0rem;
+}
+.leftbox {
+    display: none;
+}
+.rightbox {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.infobox {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.desktoppic {
+    display: none;
+}
+.mobilepic {
+    display: block;
+    padding: 0rem;
+    width: 100%;
+}
+.mobilepic img {
+    max-width: 100%;
+    height: auto;
+}
+.textbox {
+  flex: auto;
+    margin: 1rem 0 1rem 1rem;
+    padding: 0rem;
+}
+.textbox h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0.5rem;
+    padding: 0;
+}
+.textbox span {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.textbox a {
+  text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 0rem;
+}
+
+/*Start Learning*/
+
+.learningcontainer {
+    padding-bottom: 1rem;
+}
+.learningcontainer h1 {
+    padding: 2rem 0 1rem 0;
+}
+.subjectbox {
+    height: 3.2rem;
+    width: 90%;
+    margin: 0.5rem;
+    padding: 0;
+    background-color: lightgray;
+}
+.subjectpic img {
+    display: none;
+}
+.subjecttext h2 {
+    align-items: center;
+}
+.subjecttext span, p {
+    display: none;
+}
+
+/*Thesis ehibit*/
+
+#thesis.learningcontainer {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+#title {
+    padding: 2rem 0;
+    margin: 0;
+    font-weight: 600;
+}
+#thesis.practicecontent {
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+#thesis.leftbox {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.video {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 1.5rem;
+    margin: 0;
+}
+#thesis.leftbox h1, p {
+    display: none;
+}
+#fisma.rightbox {
+    display: none;
+}
+.desktoppic {
+    display: none;
+}
+.textbox {
+    margin: 1rem 0 1rem 1rem;
+    padding: 0rem;
+}
+.textbox h2 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+    padding: 0;
+}
+.textbox span {
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+/*Footer*/
+
+footer {
+    padding: 1rem;
+    font-size: 0.75rem;
+}
+footer nav a {
+    display: none;
+}
+}
